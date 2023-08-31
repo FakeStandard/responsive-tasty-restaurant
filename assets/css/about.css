@@ -1,0 +1,16 @@
+.about-container {
+}
+
+.about-data {
+    text-align: center;
+}
+
+.about-description {
+    margin-bottom: var(--mb-3);
+}
+
+.about-img {
+    width: 280px;
+    border-radius: 0.5rem;
+    justify-self: center;
+}
