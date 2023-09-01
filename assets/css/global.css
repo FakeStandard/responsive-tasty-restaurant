@@ -95,3 +95,10 @@ img {
         padding-top: 8rem;
     }
 }
+
+@media screen and (min-width: 960px) {
+    .bd-container {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

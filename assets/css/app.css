@@ -42,3 +42,9 @@
         margin: 0 var(--mb-1) 0 0;
     }
 }
+
+@media screen and (min-width: 960px) {
+    .app-container {
+        column-gap: 7rem;
+    }
+}

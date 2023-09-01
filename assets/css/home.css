@@ -33,3 +33,16 @@
         justify-items: center;
     }
 }
+
+@media screen and (min-width: 960px) {
+    .home-img {
+        width: 500px;
+    }
+}
+
+/* For tall screens on mobiles y desktop*/
+@media screen and (min-height: 721px) {
+    .home-container {
+        height: 640px;
+    }
+}

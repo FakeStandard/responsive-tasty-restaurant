@@ -28,3 +28,9 @@
         order: -1;
     }
 }
+
+@media screen and (min-width: 960px) {
+    .about-container {
+        column-gap: 7rem;
+    }
+}
