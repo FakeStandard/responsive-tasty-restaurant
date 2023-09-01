@@ -9,5 +9,18 @@
     margin-bottom: var(--mb-3);
 }
 
-.contact-button {
+@media screen and (min-width: 576px) {
+    .contact-container {
+        grid-template-columns: 1.75fr 1fr;
+        align-items: center;
+    }
+
+    .contact-container,
+    .contact-initial {
+        text-align: initial;
+    }
+
+    .contact-button {
+        justify-self: center;
+    }
 }
