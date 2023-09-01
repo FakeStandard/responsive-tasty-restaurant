@@ -46,3 +46,19 @@
     padding: 0.625rem 0.813rem;
     border-radius: 0.5rem 0 0.5rem 0;
 }
+
+@media screen and (min-width: 768px) {
+    .menu-container {
+        margin-top: var(--mb-6);
+        grid-template-columns: repeat(3, 210px);
+        column-gap: 4rem;
+    }
+
+    .menu-content {
+        padding: 1.5rem;
+    }
+
+    .menu-img {
+        width: 130px;
+    }
+}
