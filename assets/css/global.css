@@ -17,6 +17,22 @@ body {
     line-height: 1.6;
 }
 
+body.dark-theme {
+    --title-color: #f1f3f2;
+    --text-color: #c7d1cc;
+    --body-color: #1d2521;
+    --container-color: #27302c;
+}
+
+.change-theme {
+    position: absolute;
+    right: 1rem;
+    top: 1.8rem;
+    color: var(--text-color);
+    font-size: 1rem;
+    cursor: pointer;
+}
+
 h1,
 h2,
 h3,
@@ -89,6 +105,11 @@ img {
 @media screen and (min-width: 768px) {
     body {
         margin: 0;
+    }
+
+    .change-theme {
+        position: initial;
+        margin-left: var(--mb-2);
     }
 
     .section {

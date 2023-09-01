@@ -84,9 +84,4 @@
     .nav-toggle {
         display: none;
     }
-
-    .change-theme {
-        position: initial;
-        margin-left: var(--mb-2);
-    }
 }
