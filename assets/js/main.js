@@ -33,14 +33,15 @@ const sections = document.querySelectorAll('section[id]')
 
 function scrollActive() {
     const scrollY = window.pageYOffset
-
+    
     sections.forEach(f => {
-        const height = f.offsetHeigth
+        const height = f.offsetHeight
         const top = f.offsetTop - 50
-
         sectionId = f.getAttribute('id')
 
         if (scrollY > top && scrollY <= top + height) {
+            const menu = document.querySelector('.nav-menu')
+            const href = document.querySelector('.nav-menu a[href*=about]')
             document.querySelector('.nav-menu a[href*=' + sectionId + ']').classList.add('active-link')
         } else {
             document.querySelector('.nav-menu a[href*=' + sectionId + ']').classList.remove('active-link')
