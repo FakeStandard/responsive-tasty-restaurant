@@ -5,5 +5,9 @@
 - Dark & Light theme
 - Developed with Mobile First
 
+:star: [Demo](https://fakestandard.github.io/responsive-website-design-tasty-restaurant/)
+
+![COVER](./preview.png)
+
 ### Reference
 [YT - Bedimcode](https://www.youtube.com/watch?v=5RIFrZEjURA)
