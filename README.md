@@ -5,7 +5,7 @@
 - Dark & Light theme
 - Developed with Mobile First
 
-### :star: [Demo](https://fakestandard.github.io/rwd-tasty-restaurant/)
+### :star: [Demo](https://fakestandard.github.io/responsive-tasty-restaurant/)
 
 ![COVER](./preview.png)
 
